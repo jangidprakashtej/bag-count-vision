@@ -1,0 +1,44 @@
+{
+  "camera_url": "rtsp://admin:Admin%401234@192.168.1.245:554/cam/realmonitor?channel=10&subtype=1",
+  "yolo_weights_path": "best.pt",
+  "confidence_threshold": 0.8,
+  "min_track_age_to_count": 5,
+  "min_stable_frames": 2,
+  "max_disappeared_frames": 30,
+  "product_weight_kg": {
+    "Gold ISI": 25,
+    "Gold NISI": 25,
+    "Gold Plus": 25,
+    "Sak 25kg ISI": 25,
+    "Sak 25kg NISI": 25,
+    "Suntara Gypsum 25kg": 25,
+    "Suntara Gypsum 30kg": 30
+  },
+  "default_weight_kg": 25,
+  "google_sheet_name": "Bag Count Log",
+  "google_worksheet_name": "Sheet1",
+  "daily_report_worksheet_name": "Daily Report",
+  "qc_worksheet_name": "QC Samples",
+  "service_account_json": "service_account.json",
+  "sheets_flush_interval_sec": 5,
+  "factory_name": "SK Nal",
+  "count_zone": {
+    "x": 0.3578125,
+    "y": 0.06388888888888888,
+    "width": 0.365625,
+    "height": 0.9138888888888889
+  },
+  "count_line_a": {
+    "axis": "verticle",
+    "position": 0.45
+  },
+  "count_line_b": {
+    "axis": "verticle",
+    "position": 0.75
+  },
+  "max_seconds_between_lines": 1500,
+  "capture_target_fps": 15,
+  "inference_target_fps": 6,
+  "duplicate_distance_px": 60,
+  "duplicate_memory_seconds": 600
+}

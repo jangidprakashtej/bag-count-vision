@@ -1,0 +1,11 @@
+opencv-contrib-python
+torch==2.2.2
+transformers==4.46.3
+numpy<2
+scipy
+scikit-learn
+gspread
+google-auth
+Pillow
+ultralytics
+pyinstaller
